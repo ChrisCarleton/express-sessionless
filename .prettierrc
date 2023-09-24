@@ -1,0 +1,23 @@
+{
+  "arrowParens": "always",
+  "bracketSameLine": false,
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "endOfLine": "lf",
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "semi": true,
+  "singleAttributePerLine": false,
+  "useTabs": false,
+  "trailingComma": "all",
+  "singleQuote": true,
+  "tabWidth": 2,
+
+  "importOrder": ["^@src(.*)$", "^[./]"],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true,
+  "importOrderParserPlugins": ["typescript"],
+
+  "plugins": ["@trivago/prettier-plugin-sort-imports"]
+}
